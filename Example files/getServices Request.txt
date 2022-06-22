@@ -1,0 +1,33 @@
+getServices Request
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cour="http://courier.ck.dx.metafour.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cour:GetServices>
+         <serviceHeader>
+            <password>Password14£</password><userId>stevedx</userId>
+    		
+         </serviceHeader>
+         <serviceRequest>
+            
+            <customerID>174403</customerID><deliverTo>
+               <address type="ORG_CUST" primary="1">                  
+                  
+                  
+                  <organisationName>DX</organisationName>                       
+                  
+                   
+                  <addressLine1>DX House</addressLine1><addressLine2>Ridgeway</addressLine2><addressLine3>Iver</addressLine3>
+                  <addressLine4>Slough</addressLine4><city>Berkshire</city><postalCode>SL0 9JQ</postalCode><country>
+                    <countryCode>GB</countryCode>
+                  	<description>GB</description>
+                  </country>
+               </address>
+            </deliverTo>
+            <!--Zero or more repetitions:-->
+            <serviceFeatures><name>deliveryLocationType</name><value>BUSADD</value></serviceFeatures>
+         </serviceRequest>         
+      </cour:GetServices>
+   </soapenv:Body>
+</soapenv:Envelope>
+

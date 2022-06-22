@@ -1,0 +1,16 @@
+On Successfull Registration message should be displayed.
+After Login Same page should be load
+Cart already added msg
+Invalid credential msg
+Email unique ka msg
+brands page
+contact and about us page
+searching
+wishlist
+Set icons on Admin Panel
+
+discoutn +  wholeseller = new table
+OR
+place wholeseller id in dicount table not need to add discoutn1 2 3
+
+

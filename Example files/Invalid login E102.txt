@@ -1,0 +1,317 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cour="http://courier.ck.dx.metafour.com/" xmlns:v2="http://www.thedx.co.uk/eai/canonical/types/v2.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cour:CreateLabel>
+         <!--Optional:-->
+         <order>
+            <v2:orderType>?</v2:orderType>
+            <!--Optional:-->
+            <v2:orderStatus>
+               <!--1 or more repetitions:-->
+               <attributeList>
+                  <name>?</name>
+                  <!--Optional:-->
+                  <value>?</value>
+               </attributeList>
+            </v2:orderStatus>
+            <!--Optional:-->
+            <v2:DXRelateAttributes>
+               <!--Optional:-->
+               <organisationID>?</organisationID>
+               <!--Optional:-->
+               <businessUnit>?</businessUnit>
+               <!--Optional:-->
+               <divisionCode>?</divisionCode>
+            </v2:DXRelateAttributes>
+            <!--Optional:-->
+            <v2:customerID>160848</v2:customerID>
+            <!--Optional:-->
+            <v2:dates>
+               <date format="yyyy-MM-dd" type="customerRequestedDateTime">2016-06-06</date>
+               <date format="yyyy-MM-dd HH:mm:ss" type="requestedCollectionDate">2016-06-06 08:45:53.0</date>
+               <date format="yyyy-MM-dd 00:00:00" type="estimatedCollectionDate">2016-06-06 08:46:03</date>
+               <date format="yyyy-MM-dd 00:00:00" type="actualCollectionDate">2016-06-06 08:46:03</date>
+               <date format="yyyy-MM-dd HH:mm:ss" type="createdDateTime">2016-06-06 08:45:59.23</date>
+               <date format="1900-01-01 HH:mm:ss" type="requestedCollectionStartTimeWindow">1900-01-01 09:00:00</date>
+               <date format="yyyy-MM-dd 00:00:00" type="estimatedCollectionDate">2016-06-06 00:00:00</date>
+               <date format="1900-01-01 HH:mm:ss" type="requestedDeliveryStartTimeWindow">1900-01-01 09:00:00</date>
+               <date format="1900-01-01 HH:mm:ss" type="requestedDeliveryEndTimeWindow">1900-01-01 17:00:00</date>
+            </v2:dates>
+            <!--Optional:-->
+            <v2:sourceSystemReference>?</v2:sourceSystemReference>
+            <!--Optional:-->
+            <v2:customerReference>?</v2:customerReference>
+            <!--Optional:-->
+            <v2:orderAttributes>
+               <identifier>?</identifier>
+               <name>?</name>
+               <!--Optional:-->
+               <value>
+                  <!--Optional:-->
+                  <date>?</date>
+                  <!--Optional:-->
+                  <text>?</text>
+               </value>
+            </v2:orderAttributes>
+            <!--Optional:-->
+            <v2:manifestID>?</v2:manifestID>
+            <!--1 or more repetitions:-->
+            <v2:orderLines>
+               <!--Optional:-->
+               <v2:orderLineID>?</v2:orderLineID>
+               <!--Optional:-->
+               <v2:consignment>
+                  <!--Optional:-->
+                  <consignmentID>?</consignmentID>
+                  <!--Zero or more repetitions:-->
+                  <pieces>
+                     <!--Optional:-->
+                     <pieceID>?</pieceID>
+                     <!--Zero or more repetitions:-->
+                     <dimensions>
+                        <value>0.000</value>
+                        <type>cdlWeight</type>
+                        <UOM>KG</UOM>
+                     </dimensions>
+                     <!--Optional:-->
+                     <barcode>?</barcode>
+                     <!--Optional:-->
+                     <trackingNumber>1234567890</trackingNumber>
+                     <!--Optional:-->
+                     <attributes>
+                        <!--1 or more repetitions:-->
+                        <attributeList>
+                           <name>?</name>
+                           <!--Optional:-->
+                           <value>?</value>
+                        </attributeList>
+                     </attributes>
+                     <!--Optional:-->
+                     <pieceReferences>
+                        <!--1 or more repetitions:-->
+                        <attributeList>
+                           <name>?</name>
+                           <!--Optional:-->
+                           <value>?</value>
+                        </attributeList>
+                     </pieceReferences>
+                  </pieces>
+                  <!--Optional:-->
+                  <v2:qty>?</v2:qty>
+                  <!--Optional:-->
+                  <serviceDetails>
+                     <serviceID>?</serviceID>
+                     <isInsured>0</isInsured>
+                     <insuredAmount>0</insuredAmount>
+                     <!--1 or more repetitions:-->
+                     <serviceEnhancements>
+                        <name>?</name>
+                        <!--Optional:-->
+                        <value>?</value>
+                     </serviceEnhancements>
+                  </serviceDetails>
+                  <!--Zero or more repetitions:-->
+                  <legacyService>
+                     <name>serviceLevel</name>
+                     <partyId>3</partyId>
+                     <partyType>HITS</partyType>
+                  </legacyService>
+                  <legacyService>
+                     <name>serviceType</name>
+                     <partyId>19</partyId>
+                     <partyType>HITS</partyType>
+                  </legacyService>
+                  <!--Optional:-->
+                  <collectFrom>
+                     <!--Optional:-->
+                     <v2:customerID>?</v2:customerID>
+                     <!--Optional:-->
+                     <v2:mailingName>?</v2:mailingName>
+                     <!--Optional:-->
+                     <v2:DXRelateAttributes>
+                        <!--Optional:-->
+                        <organisationID>?</organisationID>
+                        <!--Optional:-->
+                        <businessUnit>?</businessUnit>
+                        <!--Optional:-->
+                        <divisionCode>?</divisionCode>
+                     </v2:DXRelateAttributes>
+                     <!--Zero or more repetitions:-->
+                     <v2:customerAttributes>
+                        <name>?</name>
+                        <!--Optional:-->
+                        <value>?</value>
+                     </v2:customerAttributes>
+                     <!--Optional:-->
+                     <v2:activationDate>
+                        <!--Optional:-->
+                        <date format="?">?</date>
+                     </v2:activationDate>
+                     <!--Zero or more repetitions:-->
+                     <v2:address type="?" primary="?">
+                        <!--Optional:-->
+                        <addressID>?</addressID>
+                        <!--Optional:-->
+                        <organisationName>?</organisationName>
+                        <!--Optional:-->
+                        <organisationDepartment>?</organisationDepartment>
+                        <!--Optional:-->
+                        <addressLine1>?</addressLine1>
+                        <!--Optional:-->
+                        <addressLine2>?</addressLine2>
+                        <!--Optional:-->
+                        <addressLine3>?</addressLine3>
+                        <!--Optional:-->
+                        <addressLine4>?</addressLine4>
+                        <!--Optional:-->
+                        <city>?</city>
+                        <!--Optional:-->
+                        <postalCode>?</postalCode>
+                        <!--Optional:-->
+                        <county>?</county>
+                        <!--Optional:-->
+                        <country>
+                           <countryCode>?</countryCode>
+                           <!--Optional:-->
+                           <description>?</description>
+                        </country>
+                        <!--Optional:-->
+                        <siteID>?</siteID>
+                     </v2:address>
+                     <!--Zero or more repetitions:-->
+                     <v2:contact type="?">
+                        <!--Optional:-->
+                        <title>?</title>
+                        <!--Optional:-->
+                        <firstName>?</firstName>
+                        <!--Optional:-->
+                        <lastName>?</lastName>
+                        <!--Optional:-->
+                        <fullName>?</fullName>
+                        <!--Optional:-->
+                        <designation>?</designation>
+                        <!--Optional:-->
+                        <fax>?</fax>
+                        <!--Optional:-->
+                        <phone>?</phone>
+                        <!--Optional:-->
+                        <email>?</email>
+                        <!--Optional:-->
+                        <mobile>?</mobile>
+                     </v2:contact>
+                     <!--1 or more repetitions:-->
+                     <v2:partyIDs>
+                        <name>?</name>
+                        <partyId>?</partyId>
+                        <partyType>?</partyType>
+                     </v2:partyIDs>
+                  </collectFrom>
+                  <!--Optional:-->
+                  <deliverTo>
+                     <!--Optional:-->
+                     <v2:customerID>?</v2:customerID>
+                     <!--Optional:-->
+                     <v2:mailingName>?</v2:mailingName>
+                     <!--Optional:-->
+                     <v2:DXRelateAttributes>
+                        <!--Optional:-->
+                        <organisationID>?</organisationID>
+                        <!--Optional:-->
+                        <businessUnit>?</businessUnit>
+                        <!--Optional:-->
+                        <divisionCode>?</divisionCode>
+                     </v2:DXRelateAttributes>
+                     <!--Zero or more repetitions:-->
+                     <v2:customerAttributes>
+                        <name>?</name>
+                        <!--Optional:-->
+                        <value>?</value>
+                     </v2:customerAttributes>
+                     <!--Optional:-->
+                     <v2:activationDate>
+                        <!--Optional:-->
+                        <date format="?">?</date>
+                     </v2:activationDate>
+                     <!--Zero or more repetitions:-->
+                     <v2:address primary="1" type="ORG_ONEDX">
+                        <addressID>1234</addressID>
+                        <organisationName>1234 D X NETWORK SERVICES LTD</organisationName>
+                        <addressLine1>D X House The Ridgeway</addressLine1>
+                        <addressLine2/>
+                        <addressLine3/>
+                        <addressLine4>IVER</addressLine4>
+                        <postalCode>SL0 9JQ</postalCode>
+                        <country>
+                           <countryCode>GB</countryCode>
+                           <description>GB</description>
+                        </country>
+                        <siteID>?</siteID>
+                     </v2:address>
+                     <!--Zero or more repetitions:-->
+                     <v2:contact type="?">
+                        <!--Optional:-->
+                        <title>?</title>
+                        <!--Optional:-->
+                        <firstName>?</firstName>
+                        <!--Optional:-->
+                        <lastName>?</lastName>
+                        <!--Optional:-->
+                        <fullName>?</fullName>
+                        <!--Optional:-->
+                        <designation>?</designation>
+                        <!--Optional:-->
+                        <fax>?</fax>
+                        <!--Optional:-->
+                        <phone>?</phone>
+                        <!--Optional:-->
+                        <email>?</email>
+                        <!--Optional:-->
+                        <mobile>?</mobile>
+                     </v2:contact>
+                     <!--1 or more repetitions:-->
+                     <v2:partyIDs>
+                        <name>?</name>
+                        <partyId>?</partyId>
+                        <partyType>?</partyType>
+                     </v2:partyIDs>
+                  </deliverTo>
+                  <!--Optional:-->
+                  <consignmentReferences>
+                     <!--1 or more repetitions:-->
+                     <attributeList>
+                        <name>?</name>
+                        <!--Optional:-->
+                        <value>?</value>
+                     </attributeList>
+                  </consignmentReferences>
+                  <!--Optional:-->
+                  <legacyDeliveryFacility>
+                     <name>?</name>
+                     <partyId>?</partyId>
+                     <partyType>?</partyType>
+                  </legacyDeliveryFacility>
+                  <!--Optional:-->
+                  <legacyCollectionFacility>
+                     <name>?</name>
+                     <partyId>?</partyId>
+                     <partyType>?</partyType>
+                  </legacyCollectionFacility>
+                  <!--Optional:-->
+                  <collectionFacilityID>?</collectionFacilityID>
+                  <!--Optional:-->
+                  <deliveryFacilityID>?</deliveryFacilityID>
+               </v2:consignment>
+            </v2:orderLines>
+            <!--Optional:-->
+            <labelType>SVG</labelType>
+         </order>
+         <!--Optional:-->
+         <serviceHeader>
+            <!--Optional:-->
+            <password>wrongpass</password>
+            <!--Optional:-->
+            <userId>user</userId>
+         </serviceHeader>
+      </cour:CreateLabel>
+   <cour:CreateLabelService/></soapenv:Body>
+</soapenv:Envelope>

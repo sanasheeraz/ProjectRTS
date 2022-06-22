@@ -1,0 +1,16 @@
+Admin Panel Options
+	Retails Orders
+	Dropshipper Orders
+	Wholeseller Orders
+
+
+Orders
+	id
+	purchaser id
+	pro id
+	total amount
+	order date
+
+Notification and email of new Registration
+count of new wholesellers | dropshipper | customer in admin panel
+wishlist

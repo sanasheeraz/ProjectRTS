@@ -1,0 +1,14 @@
+Failure Response - Invalid Login Details
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <S:Body>
+      <ns2:CreateLabelResponse xmlns:ns2="http://courier.ck.dx.metafour.com/" xmlns:ns3="http://www.thedx.co.uk/eai/canonical/types/v2.0">
+         <return>
+            <errorCode>E102</errorCode>
+            <errorDescription>Invalid login details.</errorDescription>
+            <status>0</status>
+         </return>
+      </ns2:CreateLabelResponse>
+   </S:Body>
+</S:Envelope>

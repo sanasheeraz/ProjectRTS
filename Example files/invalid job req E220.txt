@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cour="http://courier.ck.dx.metafour.com/" xmlns:v2="http://www.thedx.co.uk/eai/canonical/types/v2.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cour:CreateLabel>
+         <!--Optional:-->
+         <order>
+ 
+            <!--Optional:-->
+            <v2:customerID>160848</v2:customerID>
+           
+         </order>
+         <!--Optional:-->
+         <serviceHeader>
+            <!--Optional:-->
+            <password>SignetTest001</password>
+            <!--Optional:-->
+            <userId>SignetTest</userId>
+         </serviceHeader>
+      </cour:CreateLabel>
+   </soapenv:Body>
+</soapenv:Envelope>

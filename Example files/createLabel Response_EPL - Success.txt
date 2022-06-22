@@ -1,0 +1,15 @@
+createLabel Response - EPL
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <S:Body>
+      <ns2:CreateLabelResponse xmlns:ns2="http://courier.ck.dx.metafour.com/" xmlns:ns3="http://www.thedx.co.uk/eai/canonical/types/v2.0">
+         <return>
+            <status>1</status>
+            <label>T0QNCkZLIkVQTF9TXzQ0Ig0KRlMiRVBMX1NfNDQiDQpxODE2DQpRODEyLDIwKzANClMzDQpEMTANClpCDQpMTzE0MCwxNywxMDAsNjMNCkxPNzEwLDE3LDEwMCw2Mw0KQTI2MCwxOCwwLDQsMywzLE4sIkRYIFNFQ1VSRSINCkIyMTAsMTAwLDAsMSw0LDAsMTIwLEIsIjE2NDMwMDEwMDYiDQpCMzAsNTkwLDMsMSw0LDAsMTQwLE4sIjE2NDMwMDEwMDYiDQpMTzMyMCw2MDQsNDc4LDQNCkxPMzIwLDY5MCw0ODAsNA0KTE8zMjAsNjA0LDUsODYNCkxPNzk1LDYwNCw1LDg2DQpBNTI1LDI0NSwwLDIsMiwyLE4sIjA4LUZlYi0yMDE3Ig0KQTIwMCwzMDUsMCwyLDEsMyxOLCIwODowMCAtIDE4OjAwIg0KQTQyMCwzMDUsMCwyLDEsMyxOLCJNQU5EQVRPUlkgU0lHTkFUVVJFIg0KQTIwMCwzNjgsMCwyLDEsMixOLCIgU3RldmUgTGluZG8gVEVTVCAiDQpBMjAwLDQxMiwwLDIsMSwyLE4sIlVuaXQgNiBCIg0KQTIwMCw0NTAsMCwyLDEsMixOLCJGb2xsaW5nYnkgQnVpc25lc3MgUGFyayINCkEyMDAsNDg4LDAsMiwxLDIsTiwiV2FyZGxleSINCkEyMDAsNTI2LDAsMiwxLDIsTiwiIg0KQTIwMCw1NjQsMCwyLDEsMixOLCIiDQpBMzUsNjI1LDAsMywyLDMsTiwiTkUxMCA4WUYiDQpBMzUwLDYyNSwwLDMsMiwzLE4sIk5ld2Nhc3RsZSINCkEzNSw3MTAsMCwyLDEsMixOLCJSZWZlcmVuY2U6IDYyMTQ1MzU5NyINCkEzNSw3NjAsMCwyLDEsMixOLCJDb21tZW50czoiDQpGRQ0KRlIiRVBMX1NfNDQiDQpQMQ0KRksiRVBMX1NfNDQiDQpPRA0K</label>
+            <trackingNumber>1643001006</trackingNumber>
+         </return>
+      </ns2:CreateLabelResponse>
+   </S:Body>
+</S:Envelope>
+
